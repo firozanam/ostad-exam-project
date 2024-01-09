@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 
 .navbar {
@@ -10,13 +19,13 @@
 
 .navbar-brand {
     font-weight: 500;
-    color: #009970;
+    color: #007bff;
     font-size: 25px;
     transition: 0.3s color;
 }
 
 .login-button {
-    background-color: #009970;
+    background-color: #007bff;
     color: #ffffff;
     font-size: 14px;
     padding: 8px 20px;
@@ -27,7 +36,7 @@
 }
 
 .login-button:hover {
-    background-color: #00b838;
+    background-color: #003267;
 }
 
 
@@ -61,7 +70,7 @@
         transform: translateX(-50%);
         width: 100%;
         height: 2px;
-        background-color: #009970;
+        background-color: #007bff;
         visibility: hidden;
         transition: 0.3s ease-in-out;
     }
@@ -109,7 +118,7 @@
 }
 
 .ratings i {
-    color: rgb(13, 206, 13)
+    color: #007bff;
 }
 
 .profile-btn button {
@@ -194,4 +203,8 @@ ul {
 
 a:link {
     text-decoration: none;
+}
+
+#ageReset {
+  margin: 0 auto;
 }
